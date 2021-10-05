@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-
+# 8-rectangle.py
+# Brennan D Baraban <375@holbertonschool.com>
 """Defines a Rectangle class."""
-
 
 
 class Rectangle:
@@ -101,4 +101,3 @@ class Rectangle:
         """Print a message for every deletion of a Rectangle."""
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
-
