@@ -1,13 +1,11 @@
 #!/usr/bin/python3
-""" Creates an empty class called BaseGeometry
-"""
+# 6-base_geometry.py
+"""Defines a base geometry class BaseGeometry."""
 
 
 class BaseGeometry:
-    def __init__(self):
-        pass
+    """Represent base geometry."""
 
     def area(self):
-        """raise an exception
-        """
+        """Not implemented."""
         raise Exception("area() is not implemented")
